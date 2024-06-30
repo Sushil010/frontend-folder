@@ -193,7 +193,7 @@ gsap.to(imageSeq, {
     trigger: `#page canvas`,
     //   set start end according to preference
     start: `top top`,
-    end: `600% top`,
+    end: `300% top`,
     scroller: `#main`,
   },
   onUpdate: render,
@@ -233,6 +233,6 @@ ScrollTrigger.create({
   scroller: `#main`,
 //   set start end according to preference
   start: `top top`,
-  end: `600% top`,
+  end: `300% top`,
 });
 
