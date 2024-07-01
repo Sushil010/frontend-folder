@@ -274,3 +274,10 @@ nav button{
   align-items: center;
   flex-direction: column;
 }
+
+
+#page5 h2{
+  text-align: left;
+  font-size: 5vw;
+  font-family: sans-serif;
+}
