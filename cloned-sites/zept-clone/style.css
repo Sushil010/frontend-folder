@@ -268,7 +268,7 @@ nav button{
 #center-box #cright{
   height: 100%;
   width: 50%;
-  background-color: yellow;
+  background-color:#F6F3EF;
   padding: 0 50px;
   /* display: flex;
   justify-content: center;
@@ -278,7 +278,7 @@ nav button{
 
 
 #page5 h2{
-  margin-top: 30%;
+  margin-top: 24%;
   font-size: 5vw;
   font-family: sans-serif;
   font-weight: 200;
@@ -289,6 +289,7 @@ nav button{
   font-family: sans-serif;
   font-weight: 500;
   margin: 20px 0 ;
+  width: 85%;
 }
 
 #page5 button{
@@ -315,4 +316,28 @@ nav button{
 #page5 #line{
  border-left: 1px solid rgba(255, 255, 255, 0.482);
  height: 35px;
+}
+
+
+#cleft #lef-lef{
+  height: 100%;
+  width: 33%;
+  background-color: green;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+#lef-lef #buttons{
+  height: 170px;
+  background-color: yellow;
+  width: 10px;
+  display: flex;
+  flex-direction: column;
+  /* border-radius: 50%;  */
+
 }
