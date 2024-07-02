@@ -34,6 +34,9 @@ ScrollTrigger.refresh();
 
 loco();
 
+
+function canvas(){
+  
 const canvas = document.querySelector("canvas");
 const context = canvas.getContext("2d");
 
@@ -235,4 +238,10 @@ ScrollTrigger.create({
   start: `top top`,
   end: `300% top`,
 });
+
+
+}
+canvas();
+
+
 
