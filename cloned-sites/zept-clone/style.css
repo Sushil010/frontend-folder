@@ -360,7 +360,7 @@ nav button{
   font-family: sans-serif;
   margin-left: 12px;
   line-height: 35px;
-  opacity:0.6;
+  cursor:pointer;
 }
 
 
@@ -371,4 +371,5 @@ nav button{
   margin-top: 12px;
   margin-right: 30px;
   opacity: 0;
+
 }

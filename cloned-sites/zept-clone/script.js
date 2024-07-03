@@ -245,11 +245,38 @@ canvas();
 
 
 var head=document.querySelectorAll("h5")
-var buttons=document.querySelector(".ri-circle-fill")
+var buttons=document.querySelectorAll(".ri-circle-fill")
 flag=1;
 
 
-head.forEach(function(e){
-  console.log(e);
-  e.style.opacity=1;
+// head.forEach(function(e,idx){
+//   e.addEventListener("click",function(){
+//     e.style.opacity=1;
+//     buttons.forEach(function(b,idx){
+//       b.addEventListener("click",function(){
+//         b.style.opacity=1;
+//       })
+//     });
+//     // console.log(idx);
+//   })
+// });
+
+
+// if (buttons.length > 0) {
+//   buttons[0].style.opacity = 1;
+// }
+
+
+
+buttons[0].style.opacity=1
+
+head.forEach(function(h,idx){
+  h.addEventListener("click",function(){
+
+    buttons.forEach(function(b){
+      b.style.opacity=0;
+    });
+
+    buttons[idx].style.opacity=1;
+  })
 });
