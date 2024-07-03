@@ -244,10 +244,12 @@ ScrollTrigger.create({
 canvas();
 
 
-var elements=document.querySelectorAll("#elements")
+var head=document.querySelectorAll("h5")
 var buttons=document.querySelector(".ri-circle-fill")
 flag=1;
 
-buttons.addEventListener("click",function(dets,idx){
-  console.log(dets,idx);
-})
+
+head.forEach(function(e){
+  console.log(e);
+  e.style.opacity=1;
+});
