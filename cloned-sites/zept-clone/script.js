@@ -248,58 +248,6 @@ var elements=document.querySelectorAll("#elements")
 var buttons=document.querySelector(".ri-circle-fill")
 flag=1;
 
-
-// elements.forEach(function(dets){
-//   dets.addEventListener("click",function(){
-//     if(flag){
-//       buttons.style.opacity=1;
-//       flag=0;
-//     }
-//     else{
-//       buttons.style.opacity=0;
-//       flag=1;
-//     }
-//   })
-// });
-
-
-// elements.addEventListener("click",function(){
-//   if(flag){
-//     buttons.style.opacity=1;
-//     flag=0;
-//   }
-//   else{
-//     buttons.style.opacity=0;
-//     flag=1;
-//   }
-// })
-
-
-
-var title=document.querySelectorAll("#elements h5");
-
-title.forEach(function(d){
-  // console.log(d)
-  d.addEventListener("click",function(){
-    if(flag){
-      buttons.style.opacity=1;
-      flag=0;
-    }
-    else{
-      buttons.style.opacity=0;
-      flag=1;
-    }
-  })
-
-});
-
-
-var buttons=document.querySelectorAll(".ri-circle-fill")
-
-
-buttons.forEach(function(e){
-  // console.log(e);
-  e.addEventListener("click",function(){
-    e.style.opacity=1;
-  })
-});
+buttons.addEventListener("click",function(dets,idx){
+  console.log(dets,idx);
+})
