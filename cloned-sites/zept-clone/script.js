@@ -262,10 +262,6 @@ flag=1;
 // });
 
 
-// if (buttons.length > 0) {
-//   buttons[0].style.opacity = 1;
-// }
-
 
 
 buttons[0].style.opacity=1

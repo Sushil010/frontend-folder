@@ -261,7 +261,7 @@ nav button{
 #center-box #cleft{
   height: 100%;
   width: 50%;
-  background-color: red;
+  /* background-color: red; */
 }
 
 
@@ -322,7 +322,7 @@ nav button{
 #cleft #lef-lef{
   height: 100%;
   width: 33%;
-  background-color: green;
+  /* background-color: green; */
   display: flex;
   text-align: left;
   flex-direction: column;
