@@ -246,6 +246,8 @@ canvas();
 
 var head=document.querySelectorAll("h5")
 var buttons=document.querySelectorAll(".ri-circle-fill")
+var content=document.querySelector("#cright");
+
 flag=1;
 
 
@@ -274,5 +276,14 @@ head.forEach(function(h,idx){
     });
 
     buttons[idx].style.opacity=1;
+
+    if(idx==2){
+      contentH2.innerText="hello";
+    }  
+
+
+
   })
 });
+
+
