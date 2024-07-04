@@ -277,8 +277,8 @@ head.forEach(function(h,idx){
 
     buttons[idx].style.opacity=1;
 
-    if(idx==2){
-      contentH2.innerText="hello";
+    if(idx==1){
+      content.textContent.h2="hello";
     }  
 
 
