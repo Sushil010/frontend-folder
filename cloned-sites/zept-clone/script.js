@@ -266,7 +266,8 @@ flag=1;
 
 
 
-buttons[0].style.opacity=1
+buttons[0].style.opacity=1;
+head[0].style.opacity=1;
 
 head.forEach(function(h,idx){
   h.addEventListener("click",function(){
@@ -275,7 +276,12 @@ head.forEach(function(h,idx){
       b.style.opacity=0;
     });
 
+    h.forEach(function(b){
+      h.style.opacity=0.6;
+    });
+
     buttons[idx].style.opacity=1;
+    h[idx].style.opacity=1;
 
     if(idx==1){
       content.textContent.h2="hello";

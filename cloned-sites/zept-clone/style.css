@@ -269,7 +269,7 @@ nav button{
   height: 100%;
   width: 50%;
   background-color:#F6F3EF;
-  padding: 0 50px;
+  padding: 0 70px;
   /* display: flex;
   justify-content: center;
   align-items: center;
@@ -385,7 +385,7 @@ nav button{
 position: absolute;
 height: 50vh;
 width: 50vw;
-top: 20%;
-left: 10%;
+top: 10%;
+left: 3%;
 
 }
