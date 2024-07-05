@@ -319,6 +319,11 @@ nav button{
 }
 
 
+
+#cleft{
+  display: flex;
+}
+
 #cleft #lef-lef{
   height: 100%;
   width: 33%;
@@ -373,3 +378,10 @@ nav button{
   opacity: 0;
 
 }
+
+
+/* #lef-rig{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
