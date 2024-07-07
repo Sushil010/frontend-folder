@@ -400,21 +400,27 @@ left: 3%;
   /* display: flex;
   justify-content: center;
   align-items: center; */
-  background-color: red;
+  /* background-color: red; */
 }
 
 
-#page6 h1{
+#page6 .only{
   font-size: 60px;
-  text-align: left;
-  /* position: absolute; */
-  /* left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%); */
+  text-align: center;
+  font-family: sans-serif;
+
 }
 
 
+#page6 #pleft #contents p{
+  font-size: 17.5px;
+  width: 70%;
+  margin-top: 13px;
+}
 
+#page6 #pleft #contents h1{
+  font-size: 60px;
+}
 
 
 #page6 #pleft{
@@ -425,12 +431,20 @@ left: 3%;
   flex-direction: column;
   justify-content: center;
   align-items: center; */
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 
 #page6 #pleft #contents{
+  font-family: sans-serif;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 30%;
+}
+
+
+#pright{
+  height: 100vh;
+  width: 50vw;
+  background-color: green;
 }
