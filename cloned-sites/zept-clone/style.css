@@ -393,8 +393,27 @@ left: 3%;
 
 
 
-#page5{
+#page6{
   height: 100vh;
   width: 100vw;
   position: relative;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+
+#page6 h1{
+  font-size: 60px;
+  /* position: absolute; */
+  /* left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%); */
+}
+
+
+#page6 #pleft{
+  height: 100vh;
+  width: 50vw;
+  background-color: yellow;
 }
