@@ -400,11 +400,13 @@ left: 3%;
   /* display: flex;
   justify-content: center;
   align-items: center; */
+  background-color: red;
 }
 
 
 #page6 h1{
   font-size: 60px;
+  text-align: left;
   /* position: absolute; */
   /* left: 50%;
   top: 50%;
@@ -415,5 +417,17 @@ left: 3%;
 #page6 #pleft{
   height: 100vh;
   width: 50vw;
+  position: relative;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
   background-color: yellow;
+}
+
+
+#page6 #pleft #contents{
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
