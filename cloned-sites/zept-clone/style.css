@@ -455,6 +455,7 @@ left: 3%;
   height: 100vh;
   width: 100vw;
   position: relative;
+  display: flex;
 }
 
 #sevlef{
@@ -467,4 +468,28 @@ left: 3%;
   height: 100vh;
   width: 50vw;
   background-color: aqua;
+  position: relative;
+}
+
+#sevrig .enable{
+  font-size: 60px;
+  font-weight: 200;
+
+}
+
+
+#sevrig p{
+  width: 85%;
+  font-size: 19px;
+  margin-top: 20px;
+  font-weight: 200;
+}
+
+#sevrig #coo{
+  font-family: sans-serif;
+  position: absolute;
+  top: 50%;
+  left:40%;
+  transform: translate(-50%,-50%);
+
 }
