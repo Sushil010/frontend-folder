@@ -448,3 +448,23 @@ left: 3%;
   width: 50vw;
   background-color: green;
 }
+
+
+
+#page7{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+#sevlef{
+  height: 100vh;
+  width: 50vw;
+  background-color: #ffcd6d;
+}
+
+#sevrig{
+  height: 100vh;
+  width: 50vw;
+  background-color: aqua;
+}
