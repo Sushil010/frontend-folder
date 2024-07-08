@@ -405,6 +405,7 @@ left: 3%;
 
 
 #page6 .only{
+  font-weight: 200;
   font-size: 60px;
   text-align: center;
   font-family: sans-serif;
@@ -446,7 +447,7 @@ left: 3%;
 #pright{
   height: 100vh;
   width: 50vw;
-  background-color: green;
+  /* background-color: green; */
 }
 
 
@@ -461,13 +462,13 @@ left: 3%;
 #sevlef{
   height: 100vh;
   width: 50vw;
-  background-color: #ffcd6d;
+  /* background-color: #ffcd6d; */
 }
 
 #sevrig{
   height: 100vh;
   width: 50vw;
-  background-color: aqua;
+  /* background-color: aqua; */
   position: relative;
 }
 
