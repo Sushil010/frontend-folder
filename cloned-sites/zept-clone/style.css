@@ -494,3 +494,50 @@ left: 3%;
   transform: translate(-50%,-50%);
 
 }
+
+
+
+
+
+#page8{
+  height: 100vh;
+  width: 100vw;
+  /* position: relative; */
+  display: flex;
+}
+
+#lefet{
+  height: 100vh;
+  width: 50vw;
+  /* background-color: #ffcd6d; */
+  position: relative;
+}
+
+#texted{
+  font-family: sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+
+}
+
+#texted .automate{
+  font-size: 60px;
+  font-weight: 200;
+
+}
+
+#texted p{
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 20px;
+
+}
+
+
+#riget{
+  height: 100vh;
+  width: 50vw;
+}
