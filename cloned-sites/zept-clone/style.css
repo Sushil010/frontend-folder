@@ -580,6 +580,35 @@ left: 3%;
 #block #brig{
   height: 100%;
   width: 50%;
-  background-color: green;
+  /* background-color: green; */
+  /* position: relative; */
 
+}
+
+
+#brigcon{
+  /* flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+  font-family: sans-serif;
+  margin-top: 20vh;
+  color: white;
+  
+  
+}
+
+#brigcon .datad{
+
+font-size: 4vw;
+font-weight: 100;
+
+
+}
+
+
+#brigcon p{
+  width: 60%;
+  font-size: 1.2vw;
+  margin-top: 20px;
 }
