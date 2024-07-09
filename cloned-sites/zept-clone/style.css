@@ -547,7 +547,10 @@ left: 3%;
 #page9{
   height: 100vh;
   width: 100vw;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
 }
 
 
@@ -556,9 +559,27 @@ left: 3%;
   background-color: #2F2F2F;
   height: 65vh;
   width: 75vw;
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%,-50%);
   border-radius: 20px;
+  display: flex;
+  position: relative;
+  /* position: absolute; */
+  /* top: 20%;
+  left: 50%;
+  transform: translate(-50%,-50%); */
+  /* page: relative; */
+}
+
+
+#block #blef{
+  height: 100%;
+  width: 50%;
+  background-color: red;
+}
+
+
+#block #brig{
+  height: 100%;
+  width: 50%;
+  background-color: green;
+
 }
