@@ -603,7 +603,6 @@ left: 3%;
 font-size: 4vw;
 font-weight: 100;
 
-
 }
 
 
@@ -611,4 +610,14 @@ font-weight: 100;
   width: 60%;
   font-size: 1.2vw;
   margin-top: 20px;
+}
+
+
+#leftco .add{
+  height: 90px;
+  font-family: sans-serif;
+  background-color: white;
+  height: 40px;
+  padding: 10px 10px;
+  font-size: 20px;
 }
