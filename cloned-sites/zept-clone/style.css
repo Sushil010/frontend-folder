@@ -547,12 +547,18 @@ left: 3%;
 #page9{
   height: 100vh;
   width: 100vw;
+  position: relative;
 }
 
 
-#page9 #block{
-  height: 40vh;
-  width: 40vw;
-  background-color: green;
 
+#page9 #block{
+  background-color: #2F2F2F;
+  height: 65vh;
+  width: 75vw;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
 }
