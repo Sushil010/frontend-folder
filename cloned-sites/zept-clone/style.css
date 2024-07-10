@@ -614,10 +614,19 @@ font-weight: 100;
 
 
 #leftco .add{
-  height: 90px;
+
+  height: 5vh;
+  background-color: green;
+  width:95%;
+  /* padding: 10px 20px; */
+  margin: 10px;
+
+
+  /* height: 10vh;
   font-family: sans-serif;
   background-color: white;
   height: 40px;
   padding: 10px 10px;
   font-size: 20px;
+  margin-bottom: 30px; */
 }
