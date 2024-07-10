@@ -567,6 +567,7 @@ left: 3%;
   left: 50%;
   transform: translate(-50%,-50%); */
   /* page: relative; */
+  overflow: hidden;
 }
 
 
@@ -614,9 +615,9 @@ font-weight: 100;
 
 
 
-#leftco{
+/* #leftco{
   position: relative;
-}
+} */
 
 #leftco .add{
   font-family: sans-serif;
