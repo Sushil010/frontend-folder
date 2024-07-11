@@ -294,9 +294,31 @@ head.forEach(function(h,idx){
 
 
 
-blocks=document.querySelector(".add")
+var blocks=document.querySelectorAll(".add")
+var leftco=document.querySelector("#leftco")
+var page9=document.querySelector("#page9")
 
-blocks.addEventListener("click",function(){
-  console.log("clicked")
+
+
+
+page9.addEventListener("wheel",function(dets){
+
+  blocks.forEach(function(even){
+    if(dets.deltaY>0){
+      console.log("down")
+    }
+  })
+
+
 })
+
+// blocks.forEach(function(b){
+
+  // b.addEventListener("click",function(){
+  //   console.log("clicked")
+  // })
+
+
+// });
+
 
