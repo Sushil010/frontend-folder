@@ -293,3 +293,10 @@ head.forEach(function(h,idx){
 });
 
 
+
+blocks=document.querySelector(".add")
+
+blocks.addEventListener("click",function(){
+  console.log("clicked")
+})
+
