@@ -305,7 +305,19 @@ page9.addEventListener("wheel",function(dets){
 
   blocks.forEach(function(even){
     if(dets.deltaY>0){
-      console.log("down")
+      // console.log("down")
+      gsap.to(".add",{
+        transform:"translateY(-400%)",
+        duration:2.5,
+        ease:"none"
+      })
+    }
+    else{
+      gsap.to(".add",{
+        transform:"translateY(0%)",
+        duration:2.5,
+        ease:"none"
+      })
     }
   })
 

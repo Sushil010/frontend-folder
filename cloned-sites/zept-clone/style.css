@@ -568,6 +568,7 @@ left: 3%;
   transform: translate(-50%,-50%); */
   /* page: relative; */
   overflow: hidden;
+  gap: 2rem;
 }
 
 
