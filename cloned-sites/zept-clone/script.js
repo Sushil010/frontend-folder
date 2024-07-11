@@ -309,14 +309,14 @@ page9.addEventListener("wheel",function(dets){
       gsap.to(".add",{
         transform:"translateY(-400%)",
         duration:2.5,
-        ease:"none"
+        // ease:"none"
       })
     }
     else{
       gsap.to(".add",{
         transform:"translateY(0%)",
         duration:2.5,
-        ease:"none"
+        // ease:"none"
       })
     }
   })
