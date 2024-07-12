@@ -647,4 +647,21 @@ font-weight: 100;
   width: 100vw;
   height: 100vh;
   background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#tenc{
+  height: 65vh;
+  width: 75vw;
+  background-color: red;
+}
+
+#tenlef{
+  height: 100%;
+  width: 50%;
+  background-color: yellow;
 }
