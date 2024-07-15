@@ -785,10 +785,7 @@ margin-top: 20px;
   margin-top: 9%;
   margin-left: -50%;
   border-radius: 10px;
-  /* position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%,-50%); */
+
 }
 
 .blc img{
@@ -825,7 +822,6 @@ margin-top: 20px;
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
-  /* position: relative; */
 }
 
 
@@ -835,6 +831,5 @@ margin-top: 20px;
   font-size: 20px;
   font-weight: 100;
   align-self: flex-end;
-  /* position:absolute; */
-  /* top: 0%; */
+  
 }
