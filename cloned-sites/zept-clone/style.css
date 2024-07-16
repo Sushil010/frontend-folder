@@ -715,15 +715,17 @@ margin-top: 20px;
 #boxes{
   position: relative;
   display: flex;
-  /* justify-content: space-around; */
+  justify-content: space-between;
   align-items: center;
-  width: 80%;
-  padding: 150px;
-  gap: 35px;
-  /* border-radius: 30px; */
+  overflow: auto;
+  /* width: 80%; */
+  padding: 160px;
+  gap: 45px;
+  
 }
 
 #boxes .vert{
+  flex: 0 0 auto;
   height: 68vh;
   width: 27vw;
   background-color: red;
