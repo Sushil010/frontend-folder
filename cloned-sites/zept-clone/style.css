@@ -725,6 +725,7 @@ margin-top: 20px;
 }
 
 #boxes .vert{
+  /* prevents item from shrinking or growing */
   flex: 0 0 auto;
   height: 68vh;
   width: 27vw;
