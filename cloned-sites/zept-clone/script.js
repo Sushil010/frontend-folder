@@ -338,18 +338,6 @@ page9.addEventListener("wheel",function(dets){
 
 var bo=document.querySelector("#boxes")
 
-gsap.to(".vert",{
-  transform:"translateX(-150%)",
-  scrollTrigger:{
-      trigger:"#boxes",
-      scroller:"body",
-      markers:true,
-      start:"top 0%",
-      end:"top -900%",
-      scrub:2,
-      pin:true
-  }
-})
 
 
 
@@ -358,24 +346,3 @@ gsap.to(".vert",{
 
 
 
-
-
-// bo.addEventListener("wheel",function(det){
-//   if(det.deltaY>0){
-//     gsap.to(".vert",{
-//       transform:"translateX(40px)",
-//       // repeat:-1,
-//       // duration:9,
-//       ease:"none"
-//   })
-//   }
-//   if(det.deltaY<0){
-//     gsap.to(".vert",{
-//       transform:"translateX(-40px)",
-//       // repeat:-1,
-//       // duration:9,
-//       ease:"none"
-//   })
-//   }
-
-// })
