@@ -356,6 +356,10 @@ bo.addEventListener("mouseup",function(){
 
 bo.addEventListener("mousemove",function(){
   if(!isDown) return;
+
+  gsap.to(".vert",{
+    x:-100
+  })
   console.log(isDown)
 })
 
