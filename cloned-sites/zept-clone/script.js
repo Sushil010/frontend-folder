@@ -338,11 +338,26 @@ page9.addEventListener("wheel",function(dets){
 
 var bo=document.querySelector("#boxes")
 
+let isDown=false
 
+bo.addEventListener("mousedown",function(){
+  // console.log("mouse down")
+  isDown=true;
+})
 
+bo.addEventListener("mouseleave",function(){
+  isDown=false
+})
 
+bo.addEventListener("mouseup",function(){
+  isDown=false
+  // console.log("mouse up")
+})
 
-
+bo.addEventListener("mousemove",function(){
+  if(!isDown) return;
+  console.log(isDown)
+})
 
 
 
