@@ -336,32 +336,74 @@ page9.addEventListener("wheel",function(dets){
 // });
 
 
-var bo=document.querySelector("#boxes")
+// var bo=document.querySelector("#boxes")
+// var vert = document.querySelectorAll(".vert")
 
-let isDown=false
+// let isDown=false
 
-bo.addEventListener("mousedown",function(){
-  // console.log("mouse down")
-  isDown=true;
-})
+// bo.addEventListener("mousedown",function(){
+//   // console.log("mouse down")
+//   isDown=true;
+// })
 
-bo.addEventListener("mouseleave",function(){
-  isDown=false
-})
+// bo.addEventListener("mouseleave",function(){
+//   isDown=false
+// })
 
-bo.addEventListener("mouseup",function(){
-  isDown=false
-  // console.log("mouse up")
-})
+// bo.addEventListener("mouseup",function(){
+//   isDown=false
+//   // console.log("mouse up")
+// })
 
-bo.addEventListener("mousemove",function(){
-  if(!isDown) return;
+// bo.addEventListener("mousemove",function(){
+//   if(!isDown) return;
+//   vert.forEach(function(v){
+//     console.log("into")
+//      gsap.to(".vert",{
+//       x:-100
+//     })
+//   });
 
-  gsap.to(".vert",{
-    x:-100
-  })
-  console.log(isDown)
-})
+//   // gsap.to(".vert",{
+//   //   x:-100
+//   // })
+//   console.log(isDown)
+// })
+
+
+// var bo = document.querySelector("#boxes");
+// var vert = document.querySelectorAll(".vert");
+
+// let isDown = false;
+// let startX;
+// let scrollLeft;
+
+// bo.addEventListener("mousedown", function(e) {
+//   isDown = true;
+//   startX = e.pageX - bo.offsetLeft;
+//   scrollLeft = bo.scrollLeft;
+// });
+
+// bo.addEventListener("mouseleave", function() {
+//   isDown = false;
+// });
+
+// bo.addEventListener("mouseup", function() {
+//   isDown = false;
+// });
+
+// bo.addEventListener("mousemove", function(e) {
+//   if (!isDown) return;
+//   // e.preventDefault();
+//   const x = e.pageX - bo.offsetLeft;
+//   const walk = (x - startX)  
+//   vert.forEach(function(v) {
+//     gsap.to(v, {
+//       x: walk,
+//     });
+//     if (!isDown) return;
+//   });
+// });
 
 
 
