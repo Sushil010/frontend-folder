@@ -371,39 +371,39 @@ page9.addEventListener("wheel",function(dets){
 // })
 
 
-// var bo = document.querySelector("#boxes");
-// var vert = document.querySelectorAll(".vert");
+var bo = document.querySelector("#boxes");
+var vert = document.querySelectorAll(".vert");
 
-// let isDown = false;
-// let startX;
-// let scrollLeft;
+let isDown = false;
+let startX;
+let scrollLeft;
 
-// bo.addEventListener("mousedown", function(e) {
-//   isDown = true;
-//   startX = e.pageX - bo.offsetLeft;
-//   scrollLeft = bo.scrollLeft;
-// });
+bo.addEventListener("mousedown", function(e) {
+  isDown = true;
+  startX = e.pageX - bo.offsetLeft;
+  scrollLeft = bo.scrollLeft;
+});
 
-// bo.addEventListener("mouseleave", function() {
-//   isDown = false;
-// });
+bo.addEventListener("mouseleave", function() {
+  isDown = false;
+});
 
-// bo.addEventListener("mouseup", function() {
-//   isDown = false;
-// });
+bo.addEventListener("mouseup", function() {
+  isDown = false;
+});
 
-// bo.addEventListener("mousemove", function(e) {
-//   if (!isDown) return;
-//   // e.preventDefault();
-//   const x = e.pageX - bo.offsetLeft;
-//   const walk = (x - startX)  
-//   vert.forEach(function(v) {
-//     gsap.to(v, {
-//       x: walk,
-//     });
-//     if (!isDown) return;
-//   });
-// });
+bo.addEventListener("mousemove", function(e) {
+  if (!isDown) return;
+  // e.preventDefault();
+  const x = e.pageX - bo.offsetLeft;
+  const walk = (x - startX)  
+  vert.forEach(function(v) {
+    gsap.to(v, {
+      x: walk,
+    });
+    if (!isDown) return;
+  });
+});
 
 
 

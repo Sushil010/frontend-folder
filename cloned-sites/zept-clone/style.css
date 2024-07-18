@@ -728,11 +728,41 @@ margin-top: 20px;
   flex: 0 0 auto;
   height: 68vh;
   width: 27vw;
-  background-color: red;
+  background-color: white;
   border-radius: 10px;
 
 }
 
+
+
+.vert img{
+  height: 119px;
+  width: 100px;
+  border-radius: 10px;
+  margin: 40px;
+}
+
+.vert{
+  display: flex;
+}
+
+.vert #bc{
+  margin-top: 50px;
+  
+}
+.vert h1{
+  font-family:sans-serif;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.vert p{
+  font-family: sans-serif;
+  text-transform:uppercase;
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: 10px;
+}
 
 
 
