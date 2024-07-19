@@ -405,7 +405,7 @@ left: 3%;
 }
 
 
-#page6 .only{
+ .only{
   font-weight: 200;
   font-size: 60px;
   text-align: center;
@@ -427,14 +427,14 @@ left: 3%;
 
 #page6 #pleft{
   height: 100vh;
-  width: 50vw;
+  width:50vw;
   position: relative;
   /* display: flex; */
   /* display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; */
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 
@@ -449,12 +449,17 @@ left: 3%;
 #pright{
   height: 100vh;
   width: 50vw;
-  /* position: relative; */
-  background-color: green;
+  position: relative;
+  /* background-color: green; */
 }
-/* #pright #video{
+#pright video{
   position: absolute;
-} */
+  height: 70%;
+  width: 70%;
+  object-fit: cover;
+  top: 20%;
+
+}
 
 
 
@@ -469,6 +474,15 @@ left: 3%;
   height: 100vh;
   width: 50vw;
   /* background-color: #ffcd6d; */
+}
+
+#sevlef video{
+  position: absolute;
+  height: 60%;
+  width: 60%;
+  object-fit: cover;
+  top: 20%;
+  right: 47%;
 }
 
 #sevrig{
@@ -486,7 +500,7 @@ left: 3%;
 
 
 #sevrig p{
-  width: 85%;
+  width: 90%;
   font-size: 19px;
   margin-top: 20px;
   font-weight: 200;
