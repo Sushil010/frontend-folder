@@ -591,6 +591,17 @@ left: 3%;
   gap: 2rem;
 }
 
+#page9 .add{
+  display: flex;
+  padding: 0 1rem;
+}
+
+.add img{
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+  /* margin-bottom: 19px; */
+}
 
 #block #blef{
   height: 100%;
@@ -712,15 +723,17 @@ margin-top: 20px;
 
 
 
-
-
-
-
-
 #tenr{
   height: 100%;
   width: 50%;
   background-color: #2F2F2F;
+}
+
+#tenr img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 
