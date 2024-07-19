@@ -397,6 +397,7 @@ left: 3%;
   height: 100vh;
   width: 100vw;
   position: relative;
+  display: flex;
   /* display: flex;
   justify-content: center;
   align-items: center; */
@@ -428,11 +429,12 @@ left: 3%;
   height: 100vh;
   width: 50vw;
   position: relative;
+  /* display: flex; */
   /* display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; */
-  /* background-color: yellow; */
+  background-color: yellow;
 }
 
 
@@ -440,15 +442,19 @@ left: 3%;
   font-family: sans-serif;
   position: absolute;
   top: 40%;
-  left: 30%;
+  left: 20%;
 }
 
 
 #pright{
   height: 100vh;
   width: 50vw;
-  /* background-color: green; */
+  /* position: relative; */
+  background-color: green;
 }
+/* #pright #video{
+  position: absolute;
+} */
 
 
 
