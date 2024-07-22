@@ -15,3 +15,21 @@ html,body{
     height: 100%;
     background-color: #0942E3;
 }
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+
+}
+
+
+#right{
+    gap: 200rem;
+}
+
+#right button{
+
+    
+}
