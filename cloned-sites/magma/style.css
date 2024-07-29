@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 
 html,body{
@@ -9,6 +10,14 @@ html,body{
     height: 100%;
 }
 
+video{
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* position: absolute; */
+    top: 3%;
+}
 
 #main{
    position:relative;
@@ -26,10 +35,17 @@ button{
 }
 
 #nav{
+    position: absolute;
+    height: 10vh;
+    width: 100%;
+    /* padding-left: 20px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px;
+    padding: 50px;
+
+    /* z-index: 2; */
+    background-color: #0942E3;
 
 }
 
@@ -37,7 +53,14 @@ button{
     position: relative;
 }
 
+#left img{
+    height: 120px;
+    width: 200px;
+}
+
 #left{
+    margin-top: -190px;
+    margin-left: -100px;
     height: 1px;
     width: 1px;
 }
@@ -66,8 +89,9 @@ button{
     font-family: "Jost", sans-serif;
     font-weight: 500;
     position: absolute;
-    top: 250%;
+    top: 45%;
     left: 9%;
+    z-index: 2;
 }
 
 #text h1{
