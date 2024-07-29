@@ -71,10 +71,11 @@ button{
 }
 
 #right button{
-    font-family: sans-serif;
+    font-family: "Jont",sans-serif;
+    font-weight: 200;
     font-size: 15px;
     border-radius: 50px;
-    padding: 14px;
+    padding: 12px;
     background-color: #0942E3;
     border: 1px solid rgb(187, 187, 185);
     color: white;
@@ -83,6 +84,7 @@ button{
     margin-top: 1px;
     
 }
+
 
 #text{
     color: white;
