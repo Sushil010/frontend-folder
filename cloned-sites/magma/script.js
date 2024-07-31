@@ -1,4 +1,5 @@
-gsap.registerPlugin(ScrollTrigger);
+function loco(){
+    gsap.registerPlugin(ScrollTrigger);
 
 
 
@@ -29,3 +30,6 @@ ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
 
 
 ScrollTrigger.refresh();
+
+}
+loco()
