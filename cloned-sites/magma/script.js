@@ -44,5 +44,17 @@ document.querySelector("#page2 h1").textContent.split(" ").forEach(function(dets
 
   document.querySelector("#page2 h1").innerHTML=clut
 
+})
 
+gsap.to("#page2 h1 span",{
+  ScrollTrigger:{
+    trigger:"#page2 h1 span",
+    start: "top bottom",
+    end:"bottom top",
+    markers:true,
+    scroller:"#main",
+    scrub:.5
+  },
+  stagger:.2,
+  color:"white"
 })
