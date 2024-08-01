@@ -33,3 +33,16 @@ ScrollTrigger.refresh();
 
 }
 loco()
+
+
+
+var clut="";
+
+document.querySelector("#page2 h1").textContent.split(" ").forEach(function(dets){
+  clut+=`<span> ${dets} </span>`
+
+
+  document.querySelector("#page2 h1").innerHTML=clut
+
+
+})
