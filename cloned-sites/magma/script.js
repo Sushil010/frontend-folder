@@ -46,9 +46,9 @@ document.querySelector("#page2 h1").textContent.split(" ").forEach(function(dets
 
 })
 
-gsap.to("#page2 h1 span",{
-  ScrollTrigger:{
-    trigger:"#page2 h1 span",
+gsap.to("#page2>h1>span",{
+  scrollTrigger:{
+    trigger:"#page2>h1>span",
     start: "top bottom",
     end:"bottom top",
     markers:true,
