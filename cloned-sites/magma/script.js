@@ -78,8 +78,8 @@ function canvasimg(){
   });
   
   function files(index) {
-    var data = 
-    `./frames00007.png
+    var data =`
+    ./frames00007.png
     ./frames00010.png
     ./frames00013.png
     ./frames00016.png
@@ -170,9 +170,8 @@ function canvasimg(){
     scrollTrigger: {
       scrub: 0.15,
       trigger: `#page3`,
-      //   set start end according to preference
       start: `top top`,
-      end: `600% top`,
+      end: `250% top`,
       scroller: `#main`,
     },
     onUpdate: render,
@@ -210,7 +209,7 @@ function canvasimg(){
     pin: true,
     scroller: `#main`,
     start: `top top`,
-    end: `600% top`,
+    end: `250% top`,
   });
 }
 
