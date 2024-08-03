@@ -174,3 +174,31 @@ button{
     max-height: 100vh;
     max-width: 100vw;
 }
+
+#page4{
+    height: 100vh;
+    width: 100vw;
+    background-color:#0942E3;
+    position: relative;
+    color:white;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 0vw 10vw;
+}
+
+#page4 h2{
+    font-size: 1.2vw;
+    font-weight: 350;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+#page4 h1{
+    font-weight: 320;
+    font-size: 4vw;
+    line-height: 1.3;
+    color: rgba(250, 235, 215, 0.37);
+}
