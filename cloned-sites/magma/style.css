@@ -283,3 +283,16 @@ canvas{
     border-radius: 50%;
     border: 1px solid white;
 }
+
+
+#page8{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0942E3;
+}
+
+#page8 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
