@@ -650,3 +650,30 @@ ScrollTrigger.create({
 
 
 cim()
+
+
+
+gsap.to("#cir1",{
+  scrollTrigger:{
+    scroller:"#main",
+    trigger:"#cir1",
+    start:"top center",
+    end:"bottom top",
+    // markers:true,
+    scrub:.5
+  },
+  scale:1.2
+})
+
+
+gsap.to("#cir2",{
+  scrollTrigger:{
+    scroller:"#main",
+    trigger:"#cir2",
+    start:"top center",
+    end:"bottom top",
+    // markers:true,
+    scrub:.5
+  },
+  backgroundColor:"#0a3bce91"
+})
