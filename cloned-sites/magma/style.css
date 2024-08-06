@@ -411,7 +411,7 @@ position: relative;
     width: 100vw;
     height: 100vh;
     position: relative;
-    background-color: #052B9D;
+    background-color: #03268E;
     padding-left: 150px;
     display: flex;
 
@@ -436,12 +436,15 @@ position: relative;
 
 #eleright{
     height: 100%;
-    width: 70%;
-    background-color: green;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #eleright canvas{
-    max-width: 100vw;
-    max-height: 100vh;
+    width: 40vw;
+    height: 40vh;
     position: relative;
 }
