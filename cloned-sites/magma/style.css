@@ -431,7 +431,9 @@ position: relative;
 #eleleft{
     height: 100%;
     width: 50%;
-    background-color: red;
+    position: relative;
+    /* display: flex; */
+    /* background-color: red; */
 }
 
 #eleright{
@@ -448,3 +450,28 @@ position: relative;
     height: 40vh;
     position: relative;
 }
+
+.lines{
+    color: white;
+    font-family: "Jost",sans-serif;
+    margin-top: 58%;
+    margin-left: 10%;
+    margin-bottom: 70%;
+}
+
+.lines h1{
+    font-size: 3.5vw;
+    line-height: 57px;
+    font-weight: 350;
+}
+
+.lines p{
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+.lines h3{
+    font-weight: 300;
+    font-size: 1.3vw;
+    margin-top: 30px;
+}
+
