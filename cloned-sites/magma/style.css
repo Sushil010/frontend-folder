@@ -405,3 +405,43 @@ position: relative;
     color: rgba(255, 255, 255, 0.716);
     margin-bottom: 40px;
 }
+
+
+#page11{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #052B9D;
+    padding-left: 150px;
+    display: flex;
+
+}
+
+#page11 #Topic{
+    font-family: "Jost",sans-serif;
+    font-size: 6.5vw;
+    color: white;
+    font-weight: 325;
+    position: absolute;
+    top: 0%;
+
+}
+
+
+#eleleft{
+    height: 100%;
+    width: 30%;
+    background-color: red;
+}
+
+#eleright{
+    height: 100%;
+    width: 70%;
+    background-color: green;
+}
+
+#eleright canvas{
+    max-width: 100vw;
+    max-height: 100vh;
+    position: relative;
+}
