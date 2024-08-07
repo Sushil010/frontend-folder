@@ -432,7 +432,7 @@ position: relative;
     height: 100%;
     width: 50%;
     position: relative;
-    /* display: flex; */
+    /* display: inline-flex; */
     /* background-color: red; */
 }
 
@@ -474,4 +474,5 @@ position: relative;
     font-size: 1.3vw;
     margin-top: 30px;
 }
+
 
