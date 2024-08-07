@@ -845,17 +845,17 @@ coin()
 
 
 
-var lines=document.querySelectorAll(".lines")
+// var lines=document.querySelectorAll(".lines")
 
 
-window.addEventListener("scroll",function(){
-  var scrollTop = window.offsetY || document.documentElement.scrollTop
-  lines.forEach(function(line) {
-    gsap.to(line, {
-      y: -scrollTop/5, 
-      ease: "power1.out",
-      duration: 1
-    });
-})
-})
+// window.addEventListener("scroll",function(){
+//   var scrollTop = window.offsetY || document.documentElement.scrollTop
+//   lines.forEach(function(line) {
+//     gsap.to(line, {
+//       y: -scrollTop/5, 
+//       ease: "power1.out",
+//       duration: 1
+//     });
+// })
+// })
 

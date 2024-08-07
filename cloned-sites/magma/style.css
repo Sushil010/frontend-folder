@@ -414,7 +414,7 @@ position: relative;
     background-color: #03268E;
     padding-left: 150px;
     display: flex;
-
+    overflow: auto;
 }
 
 #page11 #Topic{
@@ -431,19 +431,26 @@ position: relative;
 #eleleft{
     height: 100%;
     width: 50%;
-    position: relative;
-    /* display: inline-flex; */
-    /* background-color: red; */
+    /* position: absolute; */
+    left: 30%;
+    padding: 10px;
+    overflow-y: auto;
+
+
 }
 
 #eleright{
     height: 100%;
-    width: 100%;
+    width: 50%;
     /* background-color: green; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+#eleleft::-webkit-scrollbar {
+    width: 0px;
+  }
 
 #eleright canvas{
     width: 40vw;
@@ -456,7 +463,7 @@ position: relative;
     font-family: "Jost",sans-serif;
     margin-top: 58%;
     margin-left: 10%;
-    margin-bottom: 70%;
+    margin-bottom: 30px;
 }
 
 .lines h1{
