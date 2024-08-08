@@ -845,17 +845,37 @@ coin()
 
 
 
-// var lines=document.querySelectorAll(".lines")
 
 
-// window.addEventListener("scroll",function(){
-//   var scrollTop = window.offsetY || document.documentElement.scrollTop
-//   lines.forEach(function(line) {
-//     gsap.to(line, {
-//       y: -scrollTop/5, 
-//       ease: "power1.out",
-//       duration: 1
-//     });
+
+document.querySelectorAll(".lines").forEach(function(dets){
+
+  gsap.to(dets,{
+    scrollTrigger:{
+      trigger:dets.querySelector("p"),
+      start:"top bottom",
+      end:"bottom top",
+      scroller:"#main",
+      // markers:true,
+      scrub:.5
+    },
+    stagger:.2,
+    color:"white"
+  })
+
+})
+
+
+
+// gsap.to(".lines",{
+//   scrollTrigger:{
+//     trigger:"#head1 p",
+//     start:"center bottom",
+//     end:"bottom top",
+//     scroller:"#main",
+//     markers:true,
+//     scrub:.5
+//   },
+//   stagger:.2,
+//   color:"white"
 // })
-// })
-
