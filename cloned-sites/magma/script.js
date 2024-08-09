@@ -867,15 +867,3 @@ document.querySelectorAll(".lines").forEach(function(dets){
 
 
 
-// gsap.to(".lines",{
-//   scrollTrigger:{
-//     trigger:"#head1 p",
-//     start:"center bottom",
-//     end:"bottom top",
-//     scroller:"#main",
-//     markers:true,
-//     scrub:.5
-//   },
-//   stagger:.2,
-//   color:"white"
-// })

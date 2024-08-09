@@ -483,3 +483,20 @@ position: relative;
 }
 
 
+#page12{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background: white;
+    padding: 165px 150px;
+}
+#page12 h1{
+    color: black;
+    font-family: "Jost",sans-serif;
+    font-size: 6vw;
+    font-weight: 340;
+}
+
+#blog1{
+    margin-top: 40px;
+}
