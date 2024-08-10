@@ -509,10 +509,11 @@ position: relative;
 #mleft{
     height: 100%;
     width: 40%;
+    overflow: auto;
     /* background-color: red; */
 }
 
-#sect1{
+.sec{
     height: 14vw;
     width: 40vw;
     /* background-color: green; */
@@ -520,7 +521,7 @@ position: relative;
 
 }
 
-#sect1 img{
+.sec img{
     height: 100%;
     width: 100%;
     border-radius: 20px;
