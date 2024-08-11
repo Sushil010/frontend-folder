@@ -772,12 +772,21 @@ position: relative;
 #page13 #texters{
     position: absolute;
     top: 20%;
-    left: 50%;
+    left: 51%;
     color:white ;
     font-family: "Jost",sans-serif;
 }
 
 
 #texters h1{
-    
+    font-size: 6.3vw;
+    font-weight: 300;
+}
+
+#texters h3{
+    font-weight: 350;
+    margin-top: 20px;
+    line-height: 30px;
+    font-weight: 4vw;
+    color: rgba(255, 255, 255, 0.722);
 }
