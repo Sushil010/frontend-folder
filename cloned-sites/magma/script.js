@@ -868,10 +868,19 @@ document.querySelectorAll(".lines").forEach(function(dets){
 
 
 
-document.querySelectorAll(".ones img").forEach(function(det){
-  det.addEventListener("mousemove",function(hom){
-    gsap.to("hom",{
-      scale:1.5
+document.querySelectorAll(".ones>img").forEach(function(det){
+  det.addEventListener("mousemove",function(){
+    gsap.to(det,{
+      scale:1.1
+    })
+  })
+});
+
+
+document.querySelectorAll(".ones>img").forEach(function(det){
+  det.addEventListener("mouseout",function(){
+    gsap.to(det,{
+      scale:1
     })
   })
 });
