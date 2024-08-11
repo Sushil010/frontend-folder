@@ -767,3 +767,17 @@ position: relative;
     width: 100vw;
     background-color: #03268E;
 }
+
+
+#page13 #texters{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    color:white ;
+    font-family: "Jost",sans-serif;
+}
+
+
+#texters h1{
+    
+}
