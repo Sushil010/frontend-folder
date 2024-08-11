@@ -867,3 +867,11 @@ document.querySelectorAll(".lines").forEach(function(dets){
 
 
 
+
+document.querySelectorAll(".ones img").forEach(function(det){
+  det.addEventListener("mousemove",function(hom){
+    gsap.to("hom",{
+      scale:1.5
+    })
+  })
+});
