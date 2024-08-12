@@ -884,3 +884,12 @@ document.querySelectorAll(".ones>img").forEach(function(det){
     })
   })
 });
+
+
+gsap.to("#scroll-im", {
+  x: "=100%",
+  duration: 15, 
+  ease: "linear", 
+  repeat: -1 
+});
+
