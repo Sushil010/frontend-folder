@@ -886,10 +886,13 @@ document.querySelectorAll(".ones>img").forEach(function(det){
 });
 
 
-gsap.to("#scroll-im", {
-  x: "=100%",
-  duration: 15, 
-  ease: "linear", 
-  repeat: -1 
+const scrollContainer = document.querySelector("#scroll-im");
+const totalWidth = scrollContainer.scrollWidth;
+
+gsap.to(scrollContainer, {
+    x: `-=${totalWidth / 2}`, // Move the entire length of one set of images
+    duration: 20, // Adjust duration as needed
+    ease: "linear",
+    repeat: -1 // Infinite repeat
 });
 
