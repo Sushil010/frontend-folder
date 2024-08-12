@@ -890,9 +890,9 @@ const scrollContainer = document.querySelector("#scroll-im");
 const totalWidth = scrollContainer.scrollWidth;
 
 gsap.to(scrollContainer, {
-    x: `-=${totalWidth / 2}`, // Move the entire length of one set of images
-    duration: 20, // Adjust duration as needed
+    x: `-=${totalWidth / 2}`, 
+    duration: 20, 
     ease: "linear",
-    repeat: -1 // Infinite repeat
+    repeat: -1
 });
 
