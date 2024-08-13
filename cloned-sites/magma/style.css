@@ -860,6 +860,7 @@ position: relative;
 }
 
 .twit{
+    position: relative;
     text-transform: capitalize;
     align-items: center;
     display: flex;
@@ -876,10 +877,28 @@ position: relative;
 
 .twit h2{
     font-weight: 350;
+    z-index: 9;
 
 }
 
 .twit i{
     font-size: 2.5vw;
     color: rgb(178, 173, 173);
+    z-index: 9;
+}
+
+
+.center4{
+    height: 0%;
+    width: 100%;
+    background-color: #0942E3;
+    position: absolute;
+    left: 0%;
+    z-index: 1;
+    transition: all ease .5s;
+}
+
+
+.twit:hover .center4{
+    height: 100%;
 }
