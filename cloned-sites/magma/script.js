@@ -891,7 +891,7 @@ const totalWidth = scrollContainer.scrollWidth;
 
 gsap.to(scrollContainer, {
     x: `-=${totalWidth / 2}`, 
-    duration: 20, 
+    duration: 25, 
     ease: "linear",
     repeat: -1
 });
