@@ -859,7 +859,8 @@ position: relative;
     width: 100vw;
 }
 
-.class{
+.twit{
+    text-transform: capitalize;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -869,12 +870,16 @@ position: relative;
     font-family: "Jost",sans-serif;
     padding: 0 150px;
     font-size: 1.7vw;
+    cursor: pointer;
     
 }
 
-.class h2{
+.twit h2{
     font-weight: 350;
 
 }
 
-
+.twit i{
+    font-size: 2.5vw;
+    color: rgb(178, 173, 173);
+}
