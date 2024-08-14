@@ -8,3 +8,34 @@ html,body{
     height: 100%;
     width: 100%;
 }
+
+#main{
+    position: relative;
+    overflow: hidden;
+}
+
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+}
+
+
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background-color: gray;
+}
+
+#page3{
+    height: 100vh;
+    width: 100vw;
+    background-color:gold;
+}
+
+#page4{
+    height: 100vh;
+    width: 100vw;
+    background-color: silver;
+}
