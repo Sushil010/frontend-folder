@@ -376,7 +376,7 @@ function canvasimg(){
       ease: `none`,
       scrollTrigger: {
         scrub: 0.15,
-        trigger: `#page1`,
+        trigger: `#page1 canvas`,
         start: `top top`,
         end: `600% top`,
         scroller: `#main`,
@@ -412,7 +412,7 @@ function canvasimg(){
     }
     ScrollTrigger.create({
     
-      trigger: "#page1",
+      trigger: "#page1 canvas",
       pin: true,
       scroller: `#main`,
       start: `top top`,
