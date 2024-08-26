@@ -201,6 +201,49 @@ html,body{
     background-color: rgba(0, 255, 21, 0.41);
 }
 
+#twolef h3{
+    font-weight: 100;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+#twolef{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    /* color: white; */
+}
+
+
+#twolef h1{
+    font-size: 35px;
+}
+
+#tworigh{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* color: white; */
+    position: absolute;
+    top: 64%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    text-wrap: nowrap;
+    text-align: right;
+}
+
+
+#tworigh h3{
+ 
+    font-weight: 100;
+    font-size: 17px;
+    margin-top: 20px;
+    /* z-index: 50; */
+}
+
+
+
+
 #page3{
     height: 100vh;
     width: 100vw;
