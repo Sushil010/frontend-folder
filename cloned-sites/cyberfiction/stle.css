@@ -59,6 +59,20 @@ html,body{
 }
 
 
+#contex{
+    z-index: 11;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 65%;
+    left: 23%;
+    transform: translate(-50%,-50%);
+    font-weight: 200;
+
+}
+
+
 
 #page{
     position: relative;
@@ -69,7 +83,7 @@ html,body{
 
 #line {
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%,-50%);
     white-space: nowrap;
